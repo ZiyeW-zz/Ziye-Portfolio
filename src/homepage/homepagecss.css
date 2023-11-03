@@ -1,0 +1,30 @@
+.name_upper {
+    position: absolute;
+      top: -70px;
+      left: 10px;
+  }
+
+  .homepage_basics {
+    background-color: rgb(225, 225, 225);
+    height: 100px;
+}
+
+.buttonsettings {
+  background: none;        /* Remove background */
+  border: none;            /* Remove border */
+  padding: 70;              /* Remove padding */
+  margin: 0;               /* Remove margin */
+  color: rgb(159, 43, 104);   /* Use parent's text color */
+  cursor: pointer;         /* Change cursor to hand on hover */
+  outline: none;           /* Remove focus outline */
+  font-family: Helvetica;    /* Use parent's font family */
+  font-size: 100;      /* Use parent's font size */
+ /* Optional: to make it look clickable */ 
+}
+
+.gridsidebyside {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Two equal-width columns */
+  grid-template-rows: auto;
+  gap: 20px; /* Adjust the gap as needed */
+}

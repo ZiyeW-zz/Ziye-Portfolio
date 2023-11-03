@@ -1,0 +1,16 @@
+
+.typewriter::after {
+    background-color: transparent;
+    content: '|';
+    animation: blink 1s infinite;
+}
+
+.typewriterbasics {
+    background-color: rgb(225, 225, 225);
+}
+
+@keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
