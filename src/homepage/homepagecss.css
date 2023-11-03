@@ -1,30 +1,113 @@
 .name_upper {
-    position: absolute;
-      top: -70px;
-      left: 10px;
-  }
+  position: absolute;
+    top: -70px;
+    left: 10px;
+}
 
   .homepage_basics {
-    background-color: rgb(225, 225, 225);
-    height: 100px;
+    background-color: rgba(45, 45, 73, 0.678);
+    height: 90px;
 }
 
 .buttonsettings {
   background: none;        /* Remove background */
   border: none;            /* Remove border */
-  padding: 70;              /* Remove padding */
-  margin: 0;               /* Remove margin */
-  color: rgb(159, 43, 104);   /* Use parent's text color */
+  display: inline;
+  align-self: center;
+  padding: 10px;              /* Remove padding */
+  margin: 0px;               /* Remove margin */
+  color: rgb(34, 124, 241);   /* Use parent's text color */
   cursor: pointer;         /* Change cursor to hand on hover */
   outline: none;           /* Remove focus outline */
-  font-family: Helvetica;    /* Use parent's font family */
-  font-size: 100;      /* Use parent's font size */
- /* Optional: to make it look clickable */ 
+  font-family: 'Courier New', Courier, monospace;    /* Use parent's font family */
+  font-size: 20px;      /* Use parent's font size */
+  font-weight: bold;
+  transition: color 0.2s;  /* Add a smooth transition effect for color change */
+}
+
+.buttonsettings:hover {
+  color: rgb(255, 255, 255); /* Change text color on hover */
 }
 
 .gridsidebyside {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* Two equal-width columns */
-  grid-template-rows: auto;
-  gap: 20px; /* Adjust the gap as needed */
+    display: grid;
+    grid-template-columns: 2fr 3fr; /* One column for the first component */
+    grid-template-rows: 1fr; /* Two rows, first row takes 1/4, second row takes 3/4 */
+    gap: 20px; /* Gap between rows and columns */
+  }
+  .item1 {
+    grid-row: 1 / 2; /* First component occupies the first row */
+    border: 1px solid #dddddd00;
+    padding: 20px;
+    color: rgb(246, 174, 126);
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    
+  }
+  
+  .item2 {
+    grid-row: 2 / 3; /* Second component occupies the second row */
+    border: 1px solid #dddddd00;
+    padding: 20px;
+  }
+
+.gridsidebyside2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr; /* One column for the first component */
+    grid-template-rows: 1fr; /* Two rows, first row takes 1/4, second row takes 3/4 */
+    gap: 20px; /* Gap between rows and columns */
+  }
+  .item1 {
+    grid-column: 1; /* First component occupies the third column */
+    grid-row: auto;
+    padding: 20px;
+  }
+  
+  .item2 {
+    grid-column: 2; /* Second component occupies the fourth column */
+    grid-row: auto;
+    padding: 20px;
+  }
+  .item3 {
+    grid-column: 3; /* Second component occupies the fourth column */
+    grid-row: auto;
+    padding: 20px;
+  }
+  .item4 {
+    grid-column: 4; /* Second component occupies the fourth column */
+    grid-row: auto;
+    padding: 20px;
+  }
+  .item5 {
+    grid-column: 5; /* Second component occupies the fourth column */
+    grid-row: auto;
+    padding: 20px;
+  }
+  
+
+
+/* Add CSS to your stylesheet or component */
+.image-container {
+  max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
+  margin: 0 auto; /* Center the container horizontally (optional) */
 }
+
+.responsive-image {
+  max-width: 100%; /* Set the image's maximum width to 100% of its container */
+  height: auto; /* Maintain the image's aspect ratio while resizing */
+  display: block; /* Remove any extra space below the image (inline-block behavior) */
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0; /* Adjust this value as needed */
+  background-color: #33444f58; /* Background color of the navigation bar */
+  
+  z-index: 100; /* Adjust the z-index as needed */
+  /* Add other styling properties as needed */
+}
+
+
+
+

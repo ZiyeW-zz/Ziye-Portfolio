@@ -1,38 +1,36 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: rgb(225, 225, 225);
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  flex-direction: column; /* Stack items vertically */
+  justify-content: flex-start; /* Start from the top */
+  gap: 40px; /* Adjust the spacing between items as needed */
+  background-color: rgb(22, 22, 40);}
 
-.App-link {
-  color: #61dafb;
-}
+.left-align {
+  text-align: center;
+  margin: 0 10%; /* 5% margin on both left and right sides */
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 100px;}
+  
+.images_settings {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Start from the top */
+  gap: 40px; /* Adjust the spacing between items as needed */
+  background-color: rgba(255, 181, 219, 0);}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.appnamemain {
+    max-width: 100%; /* Ensure the container doesn't exceed the viewport whttp://localhost:3000/static/media/fullstackdevo.d4b2d47a7b1715f7a4fd.pngidth */
+    margin: 0 auto; /* Center the container horizontally (optional) */
+    position: center;
+    margin-top: -50px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .fulldevo {
+    max-width: 90%; /* Ensure the container doesn't exceed the viewport width */
+    margin: 0 auto; /* Center the container horizontally (optional) */
+    position: center;
+    margin-top: -260px;
+    margin-bottom: 0px;
   }
-}

@@ -1,0 +1,31 @@
+.appnamemain {
+    max-width: 100%; /* Ensure the container doesn't exceed the viewport whttp://localhost:3000/static/media/fullstackdevo.d4b2d47a7b1715f7a4fd.pngidth */
+    margin: 0 auto; /* Center the container horizontally (optional) */
+    position: center;
+    margin-top: -50px;
+}
+  
+.fulldevo {
+    max-width: 90%; /* Ensure the container doesn't exceed the viewport width */
+    margin: 0 auto; /* Center the container horizontally (optional) */
+    position: center;
+    margin-top: -300px;
+    margin-bottom: 70px;
+}
+
+.image-container {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .image-container.visible {
+    opacity: 1;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+

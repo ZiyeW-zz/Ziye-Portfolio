@@ -1,33 +1,64 @@
-import logo from './logo.svg';
+import React from "react"; 
+import app_name from './app_name.png'
+import fullstackdevo from './fullstackdevo.png'
 import './App.css';
 import HomePage from './homepage/HomePage';
 import AboutPage from './aboutpage/AboutPage';
 import Typewriter from './typewriter/Typewriter';
+import WorkPage from './workspage/MyWork';
+import ContactPage from './contactpage/ContactPage';
+import ResumePage from './resumepage/ResumePage';
 
 
 function App() {
+
+
   return (
     
     <div className="App">
-      <HomePage />
-      <h1><Typewriter text="weelcome to..." /></h1>
-      <h1><Typewriter text="Ziiye Wang's" /></h1>
-      <h1><Typewriter text="p  o r t f o l i o" /></h1>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <AboutPage />
+      {/* The Homepage location */}
+      <div className="sticky-nav">
+        <HomePage/>
+      </div>
+      <div id="top-section">
+      </div>
+
+
+      {/* images */}
+      <div className="images_settings">
+        <img src={app_name} alt="main big header" className="appnamemain" style={{ width: '1000px', height: '400px' }}/>
+        <img src={fullstackdevo} alt="fullstack" className="fulldevo" style={{ width: '1100px', height: '200px' }}/>
+      </div>
+
+
+
+      {/* Container for Typewriter */}
+      <div className="typewriter-container">
+        <h1 className="left-align">
+          <Typewriter text="Hii, I'm so glad you're here 👋 I'm a university student and aspiring developer."/>
+        </h1>
+      </div>
+      {/* Container for AboutPage */}
+      <div id="about-section" className="about-page-container">
+        <AboutPage/>
+      </div>
+
+      {/* Container for WorkPage */}
+      <div id="work-section">
+        <WorkPage/>
+      </div>
+
+      {/* Container for ContactPage */}
+      <div id="resume-section">
+        <ResumePage/>
+      </div>
+
+      {/* Container for ContactPage */}
+      <div id="contact-section">
+        <ContactPage/>
+      </div>
+
+      
     </div>
   );
 }

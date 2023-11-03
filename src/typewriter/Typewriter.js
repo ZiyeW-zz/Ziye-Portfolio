@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './bigheadercss.css';
+import './typewritercss.css';
 
 function Typewriter({ text, turn='1'}) {
     const [displayText, setDisplayText] = useState("");
+    const [cursorVisible, setCursorVisible] = useState(true);
     let index = 0;
 
     useEffect(() => {
@@ -12,13 +13,23 @@ function Typewriter({ text, turn='1'}) {
                 index++;
             } else {
                 clearInterval(interval);
+                setCursorVisible(false);
             }
-        }, 150);  // Adjust the typing speed by changing this value
+        }, 50);  // Adjust the typing speed by changing this value
 
         return () => clearInterval(interval);  // Cleanup interval on unmount
     }, [text]);
+    
+    const cursorStyle = {
+        display: cursorVisible ? 'inline' : 'none',
+    };
 
-    return <span className="typewriter">{displayText}</span>;
+    return (
+        <span className="typewriterbasics">
+            {displayText}
+            <span className="cursor" style={cursorStyle}>|</span>
+        </span>
+    );
 }
 
 export default Typewriter;
