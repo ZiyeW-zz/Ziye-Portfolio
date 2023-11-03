@@ -88,10 +88,25 @@
     font-family: 'Courier New', Courier, monospace; 
     font-weight: bold;
   }
-  .descforrect{
+  .roleforrect{
     grid-row: 2;
     grid-column: 2;
     justify-self: left;
+    margin-top: -50px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace; 
+    height: 300px;
+    width: 430px;
+  }
+  .descforrect{
+    grid-row: 2;
+    grid-column: 2;
+    margin-top: 60px;
+    justify-self: left;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace; 
+    height: 300px;
+    width: 430px;
   }
   
   

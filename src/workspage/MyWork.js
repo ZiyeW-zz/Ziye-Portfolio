@@ -17,8 +17,9 @@ function WorkPage() {
             <div className="Covedbasics">
                 <div className="rectforwork">
                     <img src={covedpic} alt="the visual aide for the coved picture" className="picforrect" style={{ width: '550px', height: '400px' }}/>
-
                     <p className="titleforrect">CovEd Mentor-Mentee Matching and Web Development</p>
+                    <p className="roleforrect"> Role: fullstack web developer</p>
+                    <p className="descforrect"> Me and students from MIT Coding for Good worked together to develop an mentor-mentee algorithm and incorporate that into CovEd's website.</p>
                 </div>
             </div>
 
