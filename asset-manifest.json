@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Ziye-Portfolio/static/css/main.8b214083.css",
+    "main.js": "/Ziye-Portfolio/static/js/main.f6a177ae.js",
+    "static/js/787.6eadd481.chunk.js": "/Ziye-Portfolio/static/js/787.6eadd481.chunk.js",
+    "static/media/Resume.png": "/Ziye-Portfolio/static/media/Resume.21cee4c2afee1a09f484.png",
+    "static/media/roombee.png": "/Ziye-Portfolio/static/media/roombee.970f38c7e55784cd48a1.png",
+    "static/media/drizzlepic.png": "/Ziye-Portfolio/static/media/drizzlepic.24ae16482ec887a2a75b.png",
+    "static/media/nbnpic.png": "/Ziye-Portfolio/static/media/nbnpic.b3eadb949e6accc57b3d.png",
+    "static/media/covedpic.png": "/Ziye-Portfolio/static/media/covedpic.5810b3d7f6983dfb19f9.png",
+    "static/media/abouttextpaper.png": "/Ziye-Portfolio/static/media/abouttextpaper.0a3de7c750be5a2dfae5.png",
+    "static/media/app_name.png": "/Ziye-Portfolio/static/media/app_name.e1007389da31d960dd42.png",
+    "static/media/resumeheader.png": "/Ziye-Portfolio/static/media/resumeheader.8c1b1441e131a012b328.png",
+    "static/media/ziye_profile_pic.jpg": "/Ziye-Portfolio/static/media/ziye_profile_pic.fbe4056c988729ee6dcc.jpg",
+    "static/media/aboutme.png": "/Ziye-Portfolio/static/media/aboutme.951ca8175df0eacd30f2.png",
+    "static/media/fullstackdevo.png": "/Ziye-Portfolio/static/media/fullstackdevo.c02dc3eb73a167fc2084.png",
+    "static/media/projectsheader.png": "/Ziye-Portfolio/static/media/projectsheader.073e7e2b1b93768ddffb.png",
+    "static/media/Resume.pdf": "/Ziye-Portfolio/static/media/Resume.fe930b481bcdd250f32c.pdf",
+    "index.html": "/Ziye-Portfolio/index.html",
+    "main.8b214083.css.map": "/Ziye-Portfolio/static/css/main.8b214083.css.map",
+    "main.f6a177ae.js.map": "/Ziye-Portfolio/static/js/main.f6a177ae.js.map",
+    "787.6eadd481.chunk.js.map": "/Ziye-Portfolio/static/js/787.6eadd481.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b214083.css",
+    "static/js/main.f6a177ae.js"
+  ]
+}
