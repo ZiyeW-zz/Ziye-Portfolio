@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Ziye-Portfolio/static/css/main.86086fc6.css",
-    "main.js": "/Ziye-Portfolio/static/js/main.2c239b03.js",
+    "main.css": "/Ziye-Portfolio/static/css/main.bf3c89f5.css",
+    "main.js": "/Ziye-Portfolio/static/js/main.7d467f9d.js",
     "static/js/787.6eadd481.chunk.js": "/Ziye-Portfolio/static/js/787.6eadd481.chunk.js",
-    "static/media/Resume.png": "/Ziye-Portfolio/static/media/Resume.21cee4c2afee1a09f484.png",
+    "static/media/Resume_on_Portfolio.png": "/Ziye-Portfolio/static/media/Resume_on_Portfolio.681b09381ac65c211836.png",
     "static/media/roombee.png": "/Ziye-Portfolio/static/media/roombee.970f38c7e55784cd48a1.png",
     "static/media/drizzlepic.png": "/Ziye-Portfolio/static/media/drizzlepic.24ae16482ec887a2a75b.png",
     "static/media/nbnpic.png": "/Ziye-Portfolio/static/media/nbnpic.b3eadb949e6accc57b3d.png",
@@ -15,14 +15,14 @@
     "static/media/aboutme.png": "/Ziye-Portfolio/static/media/aboutme.951ca8175df0eacd30f2.png",
     "static/media/fullstackdevo.png": "/Ziye-Portfolio/static/media/fullstackdevo.c02dc3eb73a167fc2084.png",
     "static/media/projectsheader.png": "/Ziye-Portfolio/static/media/projectsheader.073e7e2b1b93768ddffb.png",
-    "static/media/Resume.pdf": "/Ziye-Portfolio/static/media/Resume.fe930b481bcdd250f32c.pdf",
+    "static/media/Resume_on_Portfolio.pdf": "/Ziye-Portfolio/static/media/Resume_on_Portfolio.74fe3dbab83e3dcd32d3.pdf",
     "index.html": "/Ziye-Portfolio/index.html",
-    "main.86086fc6.css.map": "/Ziye-Portfolio/static/css/main.86086fc6.css.map",
-    "main.2c239b03.js.map": "/Ziye-Portfolio/static/js/main.2c239b03.js.map",
+    "main.bf3c89f5.css.map": "/Ziye-Portfolio/static/css/main.bf3c89f5.css.map",
+    "main.7d467f9d.js.map": "/Ziye-Portfolio/static/js/main.7d467f9d.js.map",
     "787.6eadd481.chunk.js.map": "/Ziye-Portfolio/static/js/787.6eadd481.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86086fc6.css",
-    "static/js/main.2c239b03.js"
+    "static/css/main.bf3c89f5.css",
+    "static/js/main.7d467f9d.js"
   ]
 }
