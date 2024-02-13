@@ -66,19 +66,18 @@
   }
   .rectforwork {
     display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: 1fr 1fr; /* One column for the first component */
-    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10px 10px 10px;
     margin: 10px;
     height: 400px;
     width: 1000px;
     background-color: rgb(255, 255, 255);
     font-size: 16px;
-    text-align: center;
+    text-align: left;
+    grid-gap: 50px; /* Adds gap between grid items */
   }
   .picforrect{
-    grid-row: -1/1;
+    grid-row: 1;
     grid-column: 1;
   }
   .titleforrect{
@@ -87,26 +86,26 @@
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace; 
     font-weight: bold;
+    /* height: 50px; */
   }
   .roleforrect{
     grid-row: 2;
     grid-column: 2;
-    justify-self: left;
-    margin-top: -50px;
+    /* margin-top: 50px; */
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace; 
-    height: 300px;
-    width: 430px;
+
   }
   .descforrect{
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 2;
-    margin-top: 60px;
-    justify-self: left;
+    /* margin-top: 150px; */
+    justify-self: top;
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace; 
-    height: 300px;
-    width: 430px;
+    /* height: 300px;
+    width: 430px; */
+    margin-right : 20px;
   }
   
   
