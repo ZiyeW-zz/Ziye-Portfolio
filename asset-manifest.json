@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ziye-Portfolio/static/css/main.bf3c89f5.css",
-    "main.js": "/Ziye-Portfolio/static/js/main.7d467f9d.js",
+    "main.css": "/Ziye-Portfolio/static/css/main.85997d5f.css",
+    "main.js": "/Ziye-Portfolio/static/js/main.177fe232.js",
     "static/js/787.6eadd481.chunk.js": "/Ziye-Portfolio/static/js/787.6eadd481.chunk.js",
     "static/media/Resume_on_Portfolio.png": "/Ziye-Portfolio/static/media/Resume_on_Portfolio.681b09381ac65c211836.png",
     "static/media/roombee.png": "/Ziye-Portfolio/static/media/roombee.970f38c7e55784cd48a1.png",
@@ -17,12 +17,12 @@
     "static/media/projectsheader.png": "/Ziye-Portfolio/static/media/projectsheader.073e7e2b1b93768ddffb.png",
     "static/media/Resume_on_Portfolio.pdf": "/Ziye-Portfolio/static/media/Resume_on_Portfolio.74fe3dbab83e3dcd32d3.pdf",
     "index.html": "/Ziye-Portfolio/index.html",
-    "main.bf3c89f5.css.map": "/Ziye-Portfolio/static/css/main.bf3c89f5.css.map",
-    "main.7d467f9d.js.map": "/Ziye-Portfolio/static/js/main.7d467f9d.js.map",
+    "main.85997d5f.css.map": "/Ziye-Portfolio/static/css/main.85997d5f.css.map",
+    "main.177fe232.js.map": "/Ziye-Portfolio/static/js/main.177fe232.js.map",
     "787.6eadd481.chunk.js.map": "/Ziye-Portfolio/static/js/787.6eadd481.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf3c89f5.css",
-    "static/js/main.7d467f9d.js"
+    "static/css/main.85997d5f.css",
+    "static/js/main.177fe232.js"
   ]
 }
