@@ -18,9 +18,10 @@ function AboutPage({scrollToAbout}) {
             <div className="secondrow">
                 <img src={ziye_profile_pic} alt="my realistic self" className="profile_pic" style={{ width: '430.5px', height: '472.125px' }}/>
                 <img src={abouttextpaper} alt="the background to about text" className="paper" style={{ width: '600px', height: '700px' }}/>
-                <p className="papertext">Hi visitor! I'm Ziye (pronounced zee-ay). My name might not be intuitive, but the projects I want to create are. I'm currently a second-year student at Northwestern University
-                pursuing a bachelor's in computer science and a certificate in Human-Computer-Interactions. I'm passionate about computer programming, especially game development, user-interface, and computer graphics. </p>
-                <p className="papertext2">From crafting art and stories to building with Legos, my childhood brimmed with creativity. When I came to college, I feared adulthood might dampen this spirit. It wasn’t until a computer science class, where my first Python-created animations came to life with tkinter, that I discovered I'm able to design and innovate through code.</p>
+                <p className="papertext">Hi visitor! I'm Ziye (pronounced zee-ay). I'm currently a second-year student at Northwestern University
+                pursuing a bachelor's in computer science and a certificate in Human-Computer-Interactions. I'm passionate about computer programming, especially game development, user-interface, and computer graphics. My dream is to develop immersive games leveraging VR and AR technologies to push the boundaries of human-computer interaction, focusing on creating unique, interactive experiences that blend the physical and digital worlds seamlessly.</p>
+
+                <p className="papertext2">Outside of coding, I'm into volleyball, gouache painting, and recently, rock climbing. I also blend my love for technology with creativity by contributing as a photographer and web developer for our college newspaper. This harmony between my technical and personal passions enriches my journey in computer science, driving me to explore and innovate further.</p>
             </div> 
         </div>
     );

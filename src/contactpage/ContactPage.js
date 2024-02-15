@@ -25,6 +25,18 @@ function X() {
       </div>
     );
   }
+
+  function Git() {
+    const GitInProfileURL = "https://github.com/ZiyeW-zz";
+    return (
+      <div>
+        <p>Github:</p>
+        <a href={GitInProfileURL} className="linksettings" target="_blank" rel="noopener noreferrer">
+          Github Profile
+        </a>
+      </div>
+    );
+  }
   
 
 function ContactPage() {
@@ -43,7 +55,10 @@ function ContactPage() {
             <div className="textbasicsettings X">
                  <X/>
               </div>
-            <p className="textbasicsettings">
+            <div className="textbasicsettings github">
+                 <Git/>
+              </div>
+            <p className="emailsettings">
               Email me at: ziyewang2026@u.northwestern.edu
              </p>
 
