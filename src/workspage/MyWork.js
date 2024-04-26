@@ -2,9 +2,13 @@ import './myworkcss.css';
 import projectsheader from './projectsheader.png';
 import RectangleForWork from './shape';
 import covedpic from './covedpic.png'
-import roombeepic from './roombee.png'
+import roombeepic1 from './RoombeeHome.png'
+import roombeepic2 from './RoombeeSplash.png'
 import nbnpic from './nbnpic.png'
 import drizpic from './drizzlepic.png'
+import MG1 from './PerSONifyLogin.png'
+import MG2 from './PerSONifyHome.png'
+import MG3 from './PerSONifyNext.png'
 
 function WorkPage() {
     return (
@@ -13,6 +17,25 @@ function WorkPage() {
                 <img src={projectsheader} alt="my projects header" className="" style={{ width: '500px', height: '200px' }}/>
             </div>
             <p className="currentwork"> Current</p>
+
+            <div className="MoodGeniebasics">
+                <div className="rectforwork">
+                <div className = "sidebysidepics"> 
+                    <img src={MG1} alt="the visual aide for the MoodGenie picture"  style={{ width: '185px', height: '400px' }}/>
+                    <img src={MG2} alt="the visual aide for the MoodGenie picture"  style={{ width: '185px', height: '400px' }}/>
+                    <img src={MG3} alt="the visual aide for the MoodGenie picture"  style={{ width: '185px', height: '400px' }}/>
+
+                </div>                    
+                <p className="titleforrect">Mood Genie</p>
+                    <p className="roleforrect" style={{}}> Role: fullstack app developer</p>
+                    <p className="descforrect" style={{marginTop: '-10px' }}> Mood Genie is an XCode project created during the Northwestern University hosted Wilhacks, a MLH hackathon. This app utilizes Spotify API to generate 'personas' for the users and allows fiends to connect through music. 
+                    
+                    This project won 'Best Technology at Wildhacks </p>
+
+                    <p className="descforrect" style={{ marginTop: '160px'}}> My primary role for this project was to develop the frontend using SwiftUI. I also learned Flask to generate a small-scale user database and connect the backend to the frontend.</p>
+
+                </div>
+            </div>
             
             <div className="Covedbasics">
                 <div className="rectforwork">
@@ -25,7 +48,11 @@ function WorkPage() {
 
             <div className="Roombeebasics">
             <div className="rectforwork">
-                <img src={roombeepic} alt="the visual aide for the roombee picture" className="picforrect" style={{ width: '400px', height: '400px' }}/>
+                <div className = "sidebysidepics"> 
+                    <img src={roombeepic2} alt="the visual aide for the roombee picture"  style={{ width: '185px', height: '400px' }}/>
+                    <img src={roombeepic1} alt="the visual aide for the roombee picture"  style={{ width: '185px', height: '400px' }}/>
+                </div>
+                
                 <div style={{ marginLeft: '-50px' }}>
                     <p className="titleforrect">Roombee.</p>
                     <p className="roleforrect"> Role: front-end app developer</p>

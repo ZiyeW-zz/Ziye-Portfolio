@@ -35,6 +35,12 @@
       font-size: 30px;      /* Use parent's font size */
       font-weight: bold;}
 
+    
+    .MoodGeniebasics{
+      grid-row: 7;
+      justify-self: center;
+      align-self: center;
+      }   
 
   .Covedbasics{
     grid-row: 3;
@@ -60,7 +66,7 @@
   }
 
   .Drizzlebasics{
-    grid-row: 7;
+    grid-row: 8;
     justify-self: center;
     align-self: center;
   }
@@ -116,3 +122,9 @@
       background-color: green;
       border-radius: 50%;
     }
+
+  .sidebysidepics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* One column for the first component */
+    grid-template-rows: 1fr;
+  }

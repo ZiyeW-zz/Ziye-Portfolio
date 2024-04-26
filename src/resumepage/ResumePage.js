@@ -1,7 +1,7 @@
 import './resumepagecss.css';
 import resumeheader from './resumeheader.png';
 import pdf from './Resume_on_Portfolio.pdf'
-import res from './Resume_on_Portfolio.png'
+import res from './Resume.png'
 
 
 function ResumePage() {
