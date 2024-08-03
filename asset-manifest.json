@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Ziye-Portfolio/static/css/main.c31ea552.css",
-    "main.js": "/Ziye-Portfolio/static/js/main.37addff7.js",
-    "static/js/787.6eadd481.chunk.js": "/Ziye-Portfolio/static/js/787.6eadd481.chunk.js",
+    "main.css": "/Ziye-Portfolio/static/css/main.719cc466.css",
+    "main.js": "/Ziye-Portfolio/static/js/main.d927c975.js",
+    "static/js/453.89f587e0.chunk.js": "/Ziye-Portfolio/static/js/453.89f587e0.chunk.js",
     "static/media/Resume.png": "/Ziye-Portfolio/static/media/Resume.7e04dcc918ac6491baca.png",
+    "static/media/ziye_profile_pic.png": "/Ziye-Portfolio/static/media/ziye_profile_pic.2d6d3e332f99de4e8817.png",
     "static/media/drizzlepic.png": "/Ziye-Portfolio/static/media/drizzlepic.24ae16482ec887a2a75b.png",
     "static/media/nbnpic.png": "/Ziye-Portfolio/static/media/nbnpic.b3eadb949e6accc57b3d.png",
+    "static/media/ProfileArt.png": "/Ziye-Portfolio/static/media/ProfileArt.b8bc4ad611fb9a85cf59.png",
     "static/media/covedpic.png": "/Ziye-Portfolio/static/media/covedpic.5810b3d7f6983dfb19f9.png",
     "static/media/abouttextpaper.png": "/Ziye-Portfolio/static/media/abouttextpaper.0a3de7c750be5a2dfae5.png",
     "static/media/PerSONifyHome.png": "/Ziye-Portfolio/static/media/PerSONifyHome.9a575a345bc9c07f2ed8.png",
     "static/media/app_name.png": "/Ziye-Portfolio/static/media/app_name.e1007389da31d960dd42.png",
     "static/media/PerSONifyNext.png": "/Ziye-Portfolio/static/media/PerSONifyNext.a3d82d435b0138776590.png",
     "static/media/resumeheader.png": "/Ziye-Portfolio/static/media/resumeheader.8c1b1441e131a012b328.png",
-    "static/media/ziye_profile_pic.jpg": "/Ziye-Portfolio/static/media/ziye_profile_pic.fbe4056c988729ee6dcc.jpg",
-    "static/media/aboutme.png": "/Ziye-Portfolio/static/media/aboutme.951ca8175df0eacd30f2.png",
+    "static/media/heartFlowers.png": "/Ziye-Portfolio/static/media/heartFlowers.2188730fa8c283746f31.png",
     "static/media/fullstackdevo.png": "/Ziye-Portfolio/static/media/fullstackdevo.c02dc3eb73a167fc2084.png",
     "static/media/projectsheader.png": "/Ziye-Portfolio/static/media/projectsheader.073e7e2b1b93768ddffb.png",
     "static/media/RoombeeHome.png": "/Ziye-Portfolio/static/media/RoombeeHome.780220e1c843f9b834dc.png",
@@ -21,12 +22,12 @@
     "static/media/PerSONifyLogin.png": "/Ziye-Portfolio/static/media/PerSONifyLogin.88c00706510c38b795c2.png",
     "static/media/Resume_on_Portfolio.pdf": "/Ziye-Portfolio/static/media/Resume_on_Portfolio.fe1e46cf21d87086e2e5.pdf",
     "index.html": "/Ziye-Portfolio/index.html",
-    "main.c31ea552.css.map": "/Ziye-Portfolio/static/css/main.c31ea552.css.map",
-    "main.37addff7.js.map": "/Ziye-Portfolio/static/js/main.37addff7.js.map",
-    "787.6eadd481.chunk.js.map": "/Ziye-Portfolio/static/js/787.6eadd481.chunk.js.map"
+    "main.719cc466.css.map": "/Ziye-Portfolio/static/css/main.719cc466.css.map",
+    "main.d927c975.js.map": "/Ziye-Portfolio/static/js/main.d927c975.js.map",
+    "453.89f587e0.chunk.js.map": "/Ziye-Portfolio/static/js/453.89f587e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c31ea552.css",
-    "static/js/main.37addff7.js"
+    "static/css/main.719cc466.css",
+    "static/js/main.d927c975.js"
   ]
 }
