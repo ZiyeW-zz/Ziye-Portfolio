@@ -29,7 +29,7 @@ function HomePage() {
                 </div>
             <div className="gridsidebyside2">
                 <button onClick={scrollToAbout} className="buttonsettings item2">About</button>
-                <button onClick={scrollToWork} className="buttonsettings item3">My Work</button>
+                <button onClick={scrollToWork} className="buttonsettings item3">Projects</button>
                 <button onClick={scrollToResume} className="buttonsettings item4">Resume</button>
                 <button onClick={scrollToContact} className="buttonsettings item5">Contact</button>
             </div>

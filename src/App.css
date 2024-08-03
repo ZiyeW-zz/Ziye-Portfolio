@@ -2,8 +2,130 @@
   display: flex;
   flex-direction: column; /* Stack items vertically */
   justify-content: flex-start; /* Start from the top */
-  gap: 40px; /* Adjust the spacing between items as needed */
-  background-color: rgb(22, 22, 40);}
+  gap: 0px; /* Adjust the spacing between items as needed */
+  background-color: #BBB3D6;}
+
+
+/* PortfolioVer2 CSS Properties */
+
+.mainContainer {
+  position: relative; /* Allows absolute positioning of children */
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000000;
+  margin: 20px;
+  height: 800px;
+  overflow: hidden; /* Prevents overflow of child elements */
+}
+
+.artContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100%; /* Fill the main container */
+  position: relative; /* Allows positioning of child elements */
+  overflow: hidden;
+}
+
+
+.rectangleMidTone {
+  display: inline-block;
+  width: 400px;
+  height: 100%;
+  background: #E1E2FF;
+  position: absolute; /* Position it absolutely to stay behind */
+  top: 0;
+  left: 0;
+  z-index: 0; /* Ensure it stays behind other elements */
+}
+
+.rectangleLightTone {
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 80px;
+  width: 450px;
+  height: 80%;
+  background: #EFF0FF;
+  z-index: 1; /* Place it above rectangleMidTone */
+
+}
+
+.circleLightTone {
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  /* margin-left: 800px; */
+  transform: translate(300px, -150px);
+  /* margin-top: -200px; */
+  background-color: #EFF0FF;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.selfPortrait {
+  display: inline-block;
+  margin-left: -100px;
+  z-index: 1;
+}
+
+.heartFlower1 {
+  display: inline-block;
+  margin-left: -500px;
+  margin-top: 100px;
+  height: 80%;
+  width: 12%;
+  z-index: 1; /* Ensure it stays above rectangleMidTone */
+
+}
+
+.heartFlower2 {
+  display: inline-block;
+  /* Flip the image horizontally */
+  transform: scaleX(-1);
+  /* Make it half the size of .heartFlower1 */
+  height: 50%; /* 50% of 80% (from .heartFlower1), so it's 40% of its container */
+  width: 10%;  /* 50% of 12% (from .heartFlower1), so it's 6% of its container */
+  /* Align the image to the right */
+  margin-left: -125px;
+  margin-top: 100px; /* Same as .heartFlower1 to keep the vertical alignment */
+  z-index: 1; /* Ensure it stays above rectangleMidTone */
+}
+
+
+.titleWordsContainer {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  margin-left: auto; 
+  text-align: right;
+  padding-right: 20px;
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  right: 0;
+  padding: 40px;
+  z-index: 2; /* Ensure it stays above everything else */
+
+}
+.titleWords {
+  display: inline-block;
+  font-size: 250px;
+  z-index:1;
+}
+.subheadWords {
+  display: inline-block;
+  font-size: 50px;
+  font-weight: 400;
+  z-index: 1;
+  color: #000000;
+}
+
+.subheadWords2 {
+  display: inline-block;
+  font-size: 60px;
+  font-weight: 400;
+  z-index: 1;
+  color: #DC0583;
+}
+/* PortfolioVer2 CSS Properties/end */
+
 
 .left-align {
   text-align: center;
@@ -18,7 +140,7 @@
   flex-direction: column; /* Stack items vertically */
   justify-content: center; /* Start from the top */
   gap: 40px; /* Adjust the spacing between items as needed */
-  background-color: rgba(255, 181, 219, 0);}
+  background-color: #BBB3D6;}
 
 .appnamemain {
     max-width: 100%; /* Ensure the container doesn't exceed the viewport whttp://localhost:3000/static/media/fullstackdevo.d4b2d47a7b1715f7a4fd.pngidth */

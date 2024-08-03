@@ -5,7 +5,7 @@
 }
 
   .homepage_basics {
-    background-color: rgba(45, 45, 73, 0.678);
+    /* background-color: rgba(45, 45, 73, 0.678); */
     height: 90px;
 }
 
@@ -16,12 +16,12 @@
   align-self: center;
   padding: 10px;              /* Remove padding */
   margin: 0px;               /* Remove margin */
-  color: rgb(34, 124, 241);   /* Use parent's text color */
+  color: rgb(0, 0, 0);   /* Use parent's text color */
   cursor: pointer;         /* Change cursor to hand on hover */
   outline: none;           /* Remove focus outline */
-  font-family: 'Courier New', Courier, monospace;    /* Use parent's font family */
+  font-family: "Inria Serif", serif;
   font-size: 20px;      /* Use parent's font size */
-  font-weight: bold;
+  font-weight: 400;
   transition: color 0.2s;  /* Add a smooth transition effect for color change */
 }
 
@@ -39,9 +39,9 @@
     grid-row: 1 / 2; /* First component occupies the first row */
     border: 1px solid #dddddd00;
     padding: 20px;
-    color: rgb(246, 174, 126);
+    color: rgb(0, 0, 0);
     font-size: 50px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Inria Serif", serif;
     font-weight: 500;
     
   }
@@ -100,14 +100,19 @@
 }
 
 .sticky-nav {
-  position: sticky;
-  top: 0; /* Adjust this value as needed */
+  position: fixed;
+  top: -90px; /* Start off-screen */
+  width: 100%;
   background-color: #33444f58; /* Background color of the navigation bar */
-  
-  z-index: 100; /* Adjust the z-index as needed */
-  /* Add other styling properties as needed */
+  z-index: 100; /* Ensure it is above other content */
+  transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Smooth transition */
+  opacity: 0; /* Start with opacity 0 */
 }
 
+.sticky-nav.visible{
+  top: 0;
+  opacity: 1;
+}
 
 
 
