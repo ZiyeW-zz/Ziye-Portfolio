@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ziye-Portfolio/static/css/main.719cc466.css",
-    "main.js": "/Ziye-Portfolio/static/js/main.d927c975.js",
+    "main.css": "/Ziye-Portfolio/static/css/main.0f94eddd.css",
+    "main.js": "/Ziye-Portfolio/static/js/main.402e1e6f.js",
     "static/js/453.89f587e0.chunk.js": "/Ziye-Portfolio/static/js/453.89f587e0.chunk.js",
     "static/media/Resume.png": "/Ziye-Portfolio/static/media/Resume.7e04dcc918ac6491baca.png",
     "static/media/ziye_profile_pic.png": "/Ziye-Portfolio/static/media/ziye_profile_pic.2d6d3e332f99de4e8817.png",
@@ -22,12 +22,12 @@
     "static/media/PerSONifyLogin.png": "/Ziye-Portfolio/static/media/PerSONifyLogin.88c00706510c38b795c2.png",
     "static/media/Resume_on_Portfolio.pdf": "/Ziye-Portfolio/static/media/Resume_on_Portfolio.fe1e46cf21d87086e2e5.pdf",
     "index.html": "/Ziye-Portfolio/index.html",
-    "main.719cc466.css.map": "/Ziye-Portfolio/static/css/main.719cc466.css.map",
-    "main.d927c975.js.map": "/Ziye-Portfolio/static/js/main.d927c975.js.map",
+    "main.0f94eddd.css.map": "/Ziye-Portfolio/static/css/main.0f94eddd.css.map",
+    "main.402e1e6f.js.map": "/Ziye-Portfolio/static/js/main.402e1e6f.js.map",
     "453.89f587e0.chunk.js.map": "/Ziye-Portfolio/static/js/453.89f587e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.719cc466.css",
-    "static/js/main.d927c975.js"
+    "static/css/main.0f94eddd.css",
+    "static/js/main.402e1e6f.js"
   ]
 }
