@@ -16,6 +16,7 @@
   margin: 20px;
   height: 800px;
   overflow: hidden; /* Prevents overflow of child elements */
+  margin-bottom: 50px;
 }
 
 .artContainer {

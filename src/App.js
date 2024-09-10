@@ -7,9 +7,11 @@ import './App.css';
 import HomePage from './homepage/HomePage';
 import AboutPage from './aboutpage/AboutPage';
 import Typewriter from './typewriter/Typewriter';
-import WorkPage from './workspage/MyWork';
+// import WorkPage from './workspage/MyWork';
 import ContactPage from './contactpage/ContactPage';
 import ResumePage from './resumepage/ResumePage';
+
+import WorkPageVer2 from './workspage/MyWorkVer2';
 
 import ziyeArt from './PortfolioVer2Assets/ProfileArt.png';
 import heartArt from './PortfolioVer2Assets/heartFlowers.png';
@@ -87,13 +89,13 @@ function App() {
 
 
       {/* Container for AboutPage */}
-      <div id="about-section" className="about-page-container">
+      <div id="about-section">
         <AboutPage/>
       </div>
 
       {/* Container for WorkPage */}
       <div id="work-section">
-        <WorkPage/>
+        <WorkPageVer2/>
       </div>
 
       {/* Container for ContactPage */}

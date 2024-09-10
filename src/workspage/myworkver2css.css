@@ -1,0 +1,247 @@
+.works_basics {
+    background-color: #BBB3D6;
+    /* height: 900px; */
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden; /* Hide content that spills beyond the container */
+  }
+
+  .gridforworks {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 6fr 1fr 12fr ; /* Allow rows to auto-size */
+    gap: 0; 
+    margin-left: 100px;
+    margin-right: 100px;
+
+    position: relative; /* Ensure children can use absolute positioning */
+    height: auto;
+    }
+  .workTitle {
+    grid-column:1/-1;
+    grid-row: 1;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 100px;
+    font-weight: 300;
+    justify-self: center;
+    align-self: top;
+    /* margin-top: 50px; */
+    z-index: 1;
+  }
+  .currenttxt {
+    grid-column:1/-1;
+    grid-row: 1;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    justify-self: center;
+    align-self: center;
+    margin-top: 200px;
+    
+    z-index: 1;
+  }
+  .pasttxt {
+    grid-column:1/-1;
+    grid-row: 3;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    justify-self: center;
+    align-self: bottom;
+    z-index: 1;
+  }
+  
+  .currentContent {
+    grid-column: 1/-1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr; /* Allow rows to auto-size */
+    width: 90%;
+
+    margin-top: 30px; 
+    justify-self: center;
+    align-self: top;
+
+  }
+
+  .RoombeeBasics {
+    grid-column:1/-1;
+    grid-row: 1;
+    z-index: 0;
+    border: 2px solid #000000;
+    border-radius: 40px; /* Rounded corners */
+
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; /* Allow rows to auto-size */
+    position: relative;
+    z-index: 0;
+  }
+  .secondRectBackground {
+    grid-column:1/-1;
+    grid-row: 1;
+    z-index: 0;
+    border: 2px solid #000000;
+    border-radius: 40px; /* Rounded corners */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+
+    /* margin: 100px; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; /* Allow rows to auto-size */
+    position: relative; 
+    z-index: 0;
+  }
+  .WorksCardRight {
+    grid-column: 2;
+    grid-row: 1;
+    z-index:1;
+    font-family: "Josefin Sans", sans-serif;
+    /* font-size: 20px; */
+    text-align: right;
+    font-weight: 300;
+    justify-self: right;
+    align-self: center;
+    margin-right: 30px;
+  }
+  .CardTitle {
+    color: white;
+    font-size: 70px;
+    font-weight:400;
+  }
+  .CardLink {
+    color: #E7E7E7;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .skillTagsContainer {
+    display:flex;
+    flex-wrap:wrap;
+    /* gap: 10px; */
+    max-width: 100%;
+    justify-content:right;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+  }
+  .skillTags {
+    display: inline-block;
+    /* justify-content:center;
+    align-items:center; */
+    line-height: 25px;
+    padding: 5px 10px;
+    height: 25px;
+    z-index: 1;
+    border: 2px solid #E1E2FF;
+    border-radius: 10px; /* Rounded corners */
+    color: #E1E2FF;
+    font-weight: 400;
+    justify-self: center;
+    /* align-self: center; */
+    text-align: center;
+    margin:5px;
+    font-size: 20px;
+  }
+  .CardText {
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 35px;
+  }
+  .RoombeeLeft {
+
+  }
+
+  .CampusKitchensBasics {
+    grid-column:1/-1;
+    grid-row: 2;
+    z-index: 0;
+    border: 2px solid #000000;
+    border-radius: 40px; /* Rounded corners */
+
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; /* Allow rows to auto-size */
+    position: relative;
+    z-index: 0;
+  }
+
+
+  .pastContent {
+    grid-column: 1/-1;
+    grid-row: 4;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; /* Allow rows to auto-size */
+    width: 90%;
+
+    /* margin-top: 100px;  */
+    justify-self: center;
+    align-self: top;
+  }
+  .MoodGenieBasics {
+    grid-column:1/-1;
+    grid-row: 1;
+    z-index: 0;
+    border: 2px solid #000000;
+    background-color: #AAA0CC;
+    border-radius: 40px; /* Rounded corners */
+
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; /* Allow rows to auto-size */
+    position: relative;
+    z-index: 0;
+  }
+
+.CovEdBasics {
+  grid-column:1/-1;
+  grid-row: 2;
+  z-index: 0;
+  border: 2px solid #000000;
+  background-color: #AAA0CC;
+  border-radius: 40px; /* Rounded corners */
+
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr; /* Allow rows to auto-size */
+  position: relative;
+  z-index: 0;
+}
+.PlaydateBasics {
+    grid-column:1/-1;
+    grid-row: 3;
+    z-index: 0;
+    border: 2px solid #000000;
+    background-color: #AAA0CC;
+    border-radius: 40px; /* Rounded corners */
+  
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; /* Allow rows to auto-size */
+    position: relative;
+    z-index: 0;
+  }
+  .DrizzleBasics {
+    grid-column:1/-1;
+    grid-row: 4;
+    z-index: 0;
+    border: 2px solid #000000;
+    background-color: #AAA0CC;
+    border-radius: 40px; /* Rounded corners */
+  
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; /* Allow rows to auto-size */
+    position: relative;
+    z-index: 0;
+  }
