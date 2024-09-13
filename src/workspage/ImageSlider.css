@@ -1,0 +1,182 @@
+/* Container for the slider */
+.slider-container {
+    position: relative;
+    height: 100%;
+    max-width: 560px; /* Adjust the overall container width */
+    max-height: 500px; /* Fixed height for the slider container */
+    margin: 50px; /* Center the slider */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Chevrons and images aligned horizontally */
+    align-items: stretch; /* Ensure the chevrons and images stretch to the same height */
+    background-color: #BBB3D6; /* Background for the slider */
+}
+.slider-container-vertical {
+    position: relative;
+    width: 100%; 
+    max-width: 700px; /* Adjust the width of the container */
+    max-height: 600px; /* Fixed height for the container */
+    overflow: hidden;
+    margin: 50px; /* Center the slider */
+    display: flex;
+    flex-direction: column; /* Vertical stacking for images and chevrons */
+    justify-content: space-between; /* Space chevrons and images evenly */
+    align-items: center;
+    background-color: #BBB3D6; /* Background for the slider */
+}
+/* Flexbox for vertical stacking of images */
+.slider-vertical {
+    display: flex;
+    flex-direction: column; /* Stack the images vertically */
+    justify-content: space-between;
+    width: 100%;
+    transition: transform 0.5s ease-in-out; /* Smooth transition */
+}
+
+/* Individual images inside the vertical slider */
+.slider-image-vertical {
+    width: 100%; /* Full width */
+    height: auto; /* Auto height to maintain aspect ratio */
+    object-fit: contain; /* Ensure the image scales without distortion */
+    justify-self: center;
+    align-content: center;
+}
+
+/* Flexbox for side-by-side images */
+.slider {
+    display: flex;
+    flex-direction: row;
+    width: 90%; /* 80% width for the images */
+    justify-content: space-between;
+    transition: transform 0.5s ease-in-out; /* Smooth transition */
+    align-items: stretch; /* Ensure images stretch to match the height of the chevrons */
+}
+
+/* Individual images inside the slider */
+.slider-image {
+    /* flex: 0 0 45%; Each image takes up 45% of the slider width */
+    height: 100%; /* Ensure images fill the height of the container */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Contain the image without cropping */
+    justify-self: center;
+    align-content: center;
+    z-index: 2;
+}
+
+
+/* Chevron buttons */
+.slider-button-left, .slider-button-right {
+    /* position: relative; */
+    background-color: rgba(223, 217, 246, 0.6); /* Background for chevrons */
+    color: #5C5672;
+    font-size: 30px; /* Chevron size */
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    height: 100%; /* Button matches the height of the slider */
+    width: 50px; /* Fixed width for the chevrons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7; /* Initial opacity for chevrons */
+    transition: opacity 0.3s ease-in-out; /* Smooth opacity transition */
+    /* margin-left: -12px; Remove margin to eliminate gaps */
+}
+
+/* Position the buttons */
+.slider-button-left {
+    order: -1; /* Stack the left button before the images */
+}
+
+.slider-button-right {
+    order: 2; /* Stack the right button after the images */
+}
+
+/* Hover effect for buttons */
+.slider-button-left:hover,
+.slider-button-right:hover {
+    background-color: rgba(214, 115, 173, 0.8); /* Darker hover color */
+    opacity: 1; /* Full opacity on hover */
+}
+
+/* Slight hover effect for images */
+.slider-image:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+
+/* Container for the slider (Vertical layout for website images) */
+.slider-container-vertical {
+    position: relative;
+    width: 100%; 
+    max-width: 700px; /* Adjust the width of the container */
+    max-height: 600px; /* Fixed height for the container */
+    overflow: hidden;
+    margin: 50px; /* Center the slider */
+    display: flex;
+    flex-direction: column; /* Vertical stacking for images and chevrons */
+    justify-content: space-between; /* Space chevrons and images evenly */
+    align-items: center;
+    background-color: #BBB3D6; /* Background for the slider */
+}
+
+/* Flexbox for vertical stacking of images */
+.slider-vertical {
+    display: flex;
+    flex-direction: column; /* Stack the images vertically */
+    justify-content: space-between;
+    width: 100%;
+    transition: transform 0.5s ease-in-out; /* Smooth transition */
+}
+
+/* Individual images inside the vertical slider */
+.slider-image-vertical {
+    width: 100%; /* Full width */
+    height: auto; /* Auto height to maintain aspect ratio */
+    object-fit: contain; /* Ensure the image scales without distortion */
+    justify-self: center;
+    align-content: center;
+}
+
+/* Chevron buttons for vertical layout */
+.slider-button-up,
+.slider-button-down {
+    width: 100%; /* Make the button cover the full width of the container */
+    height: 50px; /* Fixed height for the chevrons */
+    background-color: rgba(223, 217, 246, 0.6); /* Background for chevrons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; /* Icon size */
+    color: #5C5672;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out; /* Smooth fade-in on hover */
+    opacity: 0.7;
+}
+
+/* Hover effect for vertical buttons */
+.slider-button-up:hover,
+.slider-button-down:hover {
+    background-color: rgba(214, 115, 173, 0.8); /* Darker hover background */
+    opacity: 1; /* Full opacity on hover */
+}
+
+/* Positioning of the vertical chevrons */
+.slider-button-up {
+    order: 1; /* Top chevron */
+}
+
+.slider-button-down {
+    order: 3; /* Bottom chevron */
+}
+
+/* The slider for website images in the middle */
+.slider-vertical {
+    order: 2;
+    flex-grow: 1; /* Make the slider take up remaining space between chevrons */
+}

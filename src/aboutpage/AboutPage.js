@@ -42,9 +42,9 @@ function AboutPage({scrollToAbout}) {
                     <div style={{padding: 20}}>
                     <p>I began my coding journey as a hobby and to help out at a nonprofit called CovEducation. I loved teaching students Python and creating animated characters with Tkinter. These experiences ignited my passion for programming. Coming to Northwestern University to study computer science has been one of the best decisions of my life since then, opening up a world of opportunities and deepening my love for the field.</p>
 
-                    <p>My favorite part about coding is the collaborative nature of projects and the blend of creativity with problem-solving. I find joy in turning complex challenges into elegant solutions and bringing ideas to life through code. Whether I'm building a new feature or debugging an existing one, I thrive in environments where teamwork and innovation come together to create something extraordinary.</p>
+                    <p>What drives me in software development is the perfect blend of creativity and problem-solving. I love challenging myself to think differently, pushing the boundaries of what can be done with code. It’s the artistic side of me, combined with my desire to find solutions, that makes programming so fulfilling. I’m passionate about working on projects that solve real problems or expand what technology—and our imagination—can achieve.</p>
 
-                    <p>Outside of coding, I'm an eclectic mix of interests and passions. When I was young, I dreamed of a career that would allow me to draw, paint, play games, read stories, listen to music, and play volleyball with my friends. The things that motivate me most are a combination of food, family, and God, which ground me and inspire me to pursue my dreams with passion and purpose.</p>
+                    <p>Outside of coding, I love playing volleyball and, although I can’t stand running, I’m training to run a 10k. I also enjoy reading science fiction and, of course, indulging in delicious food whenever I can.</p>
                     </div>
                 </div>
 
