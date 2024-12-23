@@ -96,8 +96,8 @@
     font-size: 30px;
     color:aliceblue;
     font-weight: 300;
-    justify-self: center;
-    align-self: top;
+    /* justify-self: center;
+    align-self: top; */
     z-index: 2;
     margin-left: 20px;
 

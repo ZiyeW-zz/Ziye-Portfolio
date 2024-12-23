@@ -21,6 +21,8 @@ import mg1 from './MoodGenie/mg1.png';
 import mg2 from './MoodGenie/mg2.png';
 import mg3 from './MoodGenie/mg3.png';
 
+//PlayPlate image
+import playPlateImg from './PlayPlateForPortfolio/PlayPlateImg.png';
 
 //CovEd images
 import c1 from './CovEdForPortfolio/MyProfile-Mentee.png'
@@ -121,17 +123,17 @@ function WorkPageVer2() {
             <div className="pastContent">
                 <div className="MoodGenieBasics">
                 {/* <div className="secondRectBackground"></div> */}
-                <div className="WorksCardLeft">
-                    <ImageSlider images={moodGenieImages} />
-                </div>
+                    <div className="WorksCardLeft">
+                        <ImageSlider images={moodGenieImages} />
+                    </div>
 
                 <div className="WorksCardRight">
                     <div className="CardTitle"> PerSonify </div>
                     <div>
-                    <a href="https://github.com/ZiyeW-zz/Wildhacks2024" target="_blank" rel="noopener noreferrer" className="CardLink">
-                        GitHub Repo for Project
-                        <FontAwesomeIcon icon={faExternalLinkAlt} className="external-icon" />
-                        </a>
+                        <a href="https://github.com/ZiyeW-zz/Wildhacks2024" target="_blank" rel="noopener noreferrer" className="CardLink">
+                            GitHub Repo for Project
+                            <FontAwesomeIcon icon={faExternalLinkAlt} className="external-icon" />
+                            </a>
                     </div>
                     <div className="skillTagsContainer">
                         <div className="skillTags"> Flask </div>
@@ -139,6 +141,30 @@ function WorkPageVer2() {
                         <div className="skillTags"> Xcode </div>
                     </div>
                     <div className="CardText"> iOS App designed for the 2024 Wildhacks hackathon. PerSonify analyzes users' Spotify listening data and desired mood to create personalized playlists. Won the Best Technology Award. </div>
+                </div>
+                </div>
+
+                <div className="PlayPlateBasics">
+                {/* <div className="secondRectBackground"></div> */}
+                <div className="WorksCardLeft">
+                    <img src={playPlateImg} alt="Play&Plate game made with unity 2d" className="PlayPlateImg"/>
+
+                </div>
+
+                <div className="WorksCardRight">
+                    <div className="CardTitle"> Play & Plate </div>
+                    <div>
+                    <a href="https://ziye-zz.itch.io/play-plate" target="_blank" rel="noopener noreferrer" className="CardLink">
+                        Download from Itch.io
+                        <FontAwesomeIcon icon={faExternalLinkAlt} className="external-icon" />
+                        </a>
+                    </div>
+                    <div className="skillTagsContainer">
+                        <div className="skillTags"> Unity </div>
+                        <div className="skillTags"> C# </div>
+                        <div className="skillTags"> Game Design </div>
+                    </div>
+                    <div className="CardText"> Relive your childhood in this role-playing, playground kitchen. Serve sandpie's and grassgetti to your family. </div>
                 </div>
                 </div>
 

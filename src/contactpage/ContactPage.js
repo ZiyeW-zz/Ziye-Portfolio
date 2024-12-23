@@ -37,6 +37,18 @@ function X() {
       </div>
     );
   }
+
+  function Itch() {
+    const ItchInProfileURL = "https://ziye-zz.itch.io/";
+    return (
+      <div>
+        <p>Itch:</p>
+        <a href={ItchInProfileURL} className="linksettings" target="_blank" rel="noopener noreferrer">
+          Itch.io Profile
+        </a>
+      </div>
+    );
+  }
   
 
 function ContactPage() {
@@ -57,6 +69,9 @@ function ContactPage() {
               </div>
             <div className="textbasicsettings github">
                  <Git/>
+              </div>
+            <div className="textbasicsettings itch">
+                 <Itch/>
               </div>
             <p className="emailsettings">
               Email me at: ziyewang2026@u.northwestern.edu
